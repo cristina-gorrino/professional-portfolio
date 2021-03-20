@@ -1,13 +1,19 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+}
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
   }
   
 nav li {
     float: left;
+    
   }
   
 nav li a {
@@ -16,9 +22,47 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   
   /* Change the link color to #111 (black) on hover */
 nav li a:hover {
     background-color: #111;
+  }
+#about {
+    background-color: lightgreen;
+}
+#profile-pic{
+    width: 200px;
+    height: 230px;
+}
+#projects {
+    background-color: lemonchiffon;
+}
+#contact {
+background-color: lavender;
+}
+
+
+
+main {
+  display: grid;
+  /*
+  grid-template-columns: 8px auto 8px;
+  grid-template-rows: 8px auto 12px;
+  */
+  justify-items: center;
+
+  }
+  div {
+      width: 75%;
+      height: 25%;
+  }
+
+footer {
+    background-color: aquamarine;
+    display: grid;  
+    justify-items: center;
+    padding: 5px;
+    margin: 10px; 
   }
