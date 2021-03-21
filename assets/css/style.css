@@ -107,15 +107,30 @@ figcaption {
 #work {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
     
+}
+
+#work img {
+    margin: 1%;
 }
 .small-cards {
     justify-content: space-evenly;
+    margin-left: 15%;
 }
 
-#contact {
-  
+
+#contact ul {
+    display: flex;
+ 
+    flex-wrap: wrap;
+    
+}
+#contact li a{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 footer {
@@ -123,5 +138,6 @@ footer {
     display: grid;  
     justify-items: center;
     padding: 1%;
-    margin: 1%; 
+    margin: 1%;
+    width: 100%; 
   }
