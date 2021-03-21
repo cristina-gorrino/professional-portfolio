@@ -56,11 +56,12 @@ h2 {
     padding: 1%;
     margin: 5%;
     font-size: 1.5em;
+    /*flex: 0 1 15%;*/
 }
 main {
      display: flex;
      flex-direction: column;
-     margin: 7% 7%;
+     margin: 0% 5%;
     }
 
 section {
@@ -72,7 +73,7 @@ section {
 
 section p {
   color: #ead5b6;
-  margin: 2%;
+  margin: 5%;
   padding: 1%;
 }
 
@@ -107,15 +108,18 @@ figcaption {
 #work {
     display: flex;
     flex-wrap: wrap;
+ 
     
 }
 
 #work img {
-    margin: 1%;
+    margin: 2%;
 }
 .small-cards {
+    display: flex;
+    
     justify-content: space-evenly;
-    margin-left: 15%;
+    
 }
 
 
