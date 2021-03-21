@@ -1,18 +1,22 @@
+* {
+    font-size: 20px;
+}
 body {
-    background-color: #2e052f;
+    /*background-color: #2e052f;*/
+    background-color: #231d2f;
 }
 
 header {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #231d2f;
   }
   
 nav li {
@@ -21,7 +25,7 @@ nav li {
   
 nav li a {
     display: block;
-    color: white;
+    color: #ead5b6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,12 +38,15 @@ nav li a:hover {
   }
 
 h1 {
-    color: white;
+    color: #ead5b6;
+    margin: 1%;
+    font-size: 2em;
 }
 
 .header-image {
     
-    height: 200px;
+    width: 100%;
+    max-height: 200px;
 }
 
 h2 {
@@ -47,16 +54,20 @@ h2 {
     border-right: #d7b05a;
     border-style: none solid none none;
     padding: 1%;
-    margin: 1%;
+    margin: 5%;
+    font-size: 1.5em;
 }
 main {
      display: flex;
      flex-direction: column;
+     margin: 7% 7%;
     }
 
 section {
     display: flex;
-    background-color: #2e052f;
+    /*background-color: #2e052f;*/
+    background-color: #231d2f;
+    margin: 5% 5%;
 }
 
 section p {
@@ -88,7 +99,8 @@ figcaption {
     border-color: #d5500f;
     border-radius: 5px;
     border-width: 10px;
-    margin: 10%;
+    margin: 5% 5%;
+    
 
 }
 
@@ -103,7 +115,7 @@ figcaption {
 }
 
 #contact {
-  justify-content: space-evenly;
+  
 }
 
 footer {
