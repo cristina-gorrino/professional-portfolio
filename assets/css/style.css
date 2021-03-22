@@ -108,69 +108,47 @@ figcaption {
 
 }
 /* Styles for the Work section */
-/* Includes labels that are positioned over the images */
-#work {
+/* Includes labels that are positioned below the images */
+.gallery{
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-direction: column;
 }
-
 #work img {
-    margin: 2%;
     border-style: solid;
     border-color: #bb470e;
     border-width: 5px;
-    border-radius: 5px;
+}
+.large-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.big-card {
+    flex: 1 0 0;
 }
 .main-project {
-    width: 600px;
+    width: 100%;
+    min-width: 600px;
 }
-.large-card{
-    position: relative;
-    
-}
-.large-card h3 {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color:  #bb470e;;
-    color: #ead5b6;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-.small-cards {
+.small-cards{
     display: flex;
-    justify-content: space-between;
-    position: relative;
-  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card {
+    flex: 1 0 400px;
+    margin: 2%;
 }
 
-.small-cards h3 {
+.card img {
+    width: 100%;
+    min-width: 400px;
+}
+
+h3 {
     background-color:  #bb470e;;
     color: #ead5b6;
     padding-left: 20px;
     padding-right: 20px;
-}
-.p2-label{
-    position: absolute;
-    bottom: 25px;
-    left: 29px;
-}
-
-.p3-label{
-    position: absolute;
-    bottom: 25px;
-    left: 475px;
-}
-.p4-label{
-    position: absolute;
-    bottom: 25px;
-    right: 19px;
-}
-.small-project {
-    width: 400px;
 }
 
 /* Styles for the Contact Me section */
