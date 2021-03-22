@@ -4,8 +4,8 @@
     line-height: 1.5em;
 }
 body {
-    /*background-color: #2e052f;*/
-    background-color: #231d2f;
+    background-color: #2e052f;
+    /*background-color: #231d2f;*/
 }
 
 header {
@@ -68,8 +68,8 @@ main {
 
 section {
     display: flex;
-    /*background-color: #2e052f;*/
-    background-color: #231d2f;
+    background-color: #2e052f;
+    /*background-color: #231d2f;*/
     margin: 5% 5%;
 }
 
@@ -99,7 +99,7 @@ figcaption {
     width: 200px;
     height: 230px;
     border-style: solid;
-    border-color: #d5500f;
+    border-color: #bb470e;
     border-radius: 5px;
     border-width: 10px;
     margin: 5% 5%;
@@ -110,20 +110,38 @@ figcaption {
 #work {
     display: flex;
     flex-wrap: wrap;
- 
     
 }
 
 #work img {
     margin: 2%;
 }
-.small-cards {
-    display: flex;
-    
-    justify-content: space-evenly;
+.main-project {
+    width: 500px;
+}
+.large-card{
+    position: relative;
     
 }
+.large-card h3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:  #bb470e;;
+    color: #ead5b6;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
+
+.small-cards {
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.small-project {
+    width: 300px;
+}
 
 #contact ul {
     display: flex;
@@ -140,7 +158,7 @@ figcaption {
 }
 
 footer {
-    background-color: #d5500f;
+    background-color: #bb470e;;
     display: grid;  
     justify-items: center;
     padding: 1%;
