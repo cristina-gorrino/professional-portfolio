@@ -5,9 +5,9 @@
 }
 body {
     background-color: #2e052f;
-    /*background-color: #231d2f;*/
 }
 
+/* Styles for top header and nav bar */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -45,6 +45,7 @@ h1 {
     font-size: 2em;
 }
 
+/* Styles for the header image */
 .header-image {
     
     width: 100%;
@@ -52,6 +53,7 @@ h1 {
  
 }
 
+/* Styles for the section titles */
 h2 {
     color: #d7b05a ;
     border-right: #d7b05a;
@@ -61,6 +63,7 @@ h2 {
     font-size: 1.5em;
 }
 
+/* Styles applied to all sections and main container section */
 main {
      display: flex;
      flex-direction: column;
@@ -70,19 +73,16 @@ main {
 section {
     display: flex;
     background-color: #2e052f;
-    /*background-color: #231d2f;*/
     margin: 5% 5%;
 }
-
+/* Styles for the About Me section */
 section p {
   color: #ead5b6;
   margin: 5%;
   padding: 1%;
 }
 
-a {
-    color: #ead5b6;
-}
+
 figcaption {
     color: #ead5b6;
 }
@@ -107,7 +107,8 @@ figcaption {
     
 
 }
-
+/* Styles for the Work section */
+/* Includes labels that are positioned over the images */
 #work {
     display: flex;
     flex-wrap: wrap;
@@ -172,6 +173,10 @@ figcaption {
     width: 400px;
 }
 
+/* Styles for the Contact Me section */
+a {
+    color: #ead5b6;
+}
 #contact ul {
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +190,7 @@ figcaption {
     text-decoration: none;
 }
 
+/* Styles for the Footer section */
 footer {
     background-color: #bb470e;
     color: #ead5b6;
