@@ -137,7 +137,7 @@ figcaption {
     justify-content: space-evenly;
 }
 .card {
-    flex: 1 0 400px;
+    flex: 1 0 0;
     margin: 2%;
 }
 
@@ -185,4 +185,14 @@ footer {
       nav{
           flex-direction: column;
       }
+      #about div {
+          flex-direction: column;
+      }
+
+      .main-project{
+        min-width: 300px;
+    }
+      .card img {
+        min-width: 150px;
+    }
   }
