@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-URL: placeholder
+URL: https://cristina-gorrino.github.io/professional-portfolio/
 
 Purpose: This page was made to showcase my projects and web development skills, and to provide future employers and collaborators examples of my work.
 
