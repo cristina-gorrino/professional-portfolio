@@ -5,6 +5,8 @@
 }
 body {
     background-color: #2e052f;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Styles for top header and nav bar */
@@ -49,7 +51,7 @@ h1 {
 .header-image {
     
     width: 100%;
-    max-height: 200px;
+    /*max-height: 200px;*/
  
 }
 
@@ -172,9 +174,15 @@ a {
 footer {
     background-color: #bb470e;
     color: #ead5b6;
-    display: grid;  
-    justify-items: center;
+    flex-shrink: 0;
+    text-align: center;
     padding: 1%;
     margin: 1%;
     width: 100%; 
+  }
+  /* Media Query to adjust styles for small screens*/
+  @media screen and (max-width: 768px) {
+      nav{
+          flex-direction: column;
+      }
   }
